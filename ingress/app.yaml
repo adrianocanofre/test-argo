@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: my-app-container
-          image: httpd:2.4.61
+          image: httpd:2.4.62
           ports:
             - containerPort: 80
           env:
