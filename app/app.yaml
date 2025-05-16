@@ -13,7 +13,7 @@ kind: Deployment
 metadata:
   name: my-app
 spec:
-  replicas: 5
+  replicas: 3
   selector:
     matchLabels:
       app: my-app
@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: my-app-container
-          image: httpd:2.4.62
+          image: httpd:2.4.63
           ports:
             - containerPort: 80
           env:
